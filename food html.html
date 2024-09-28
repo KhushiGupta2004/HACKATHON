@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INNOVATION for INNOVATORS!</title>
+  <link rel="stylesheet" href="food css.css">
+</head>
+<body>
+  <header>
+    <h1>INNOVATION for INNOVATORS!</h1>
+    <nav>
+      <button id="viewCartBtn">View Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+  </header>
+
+  <section id="food-menu">
+    <div class="menu-container" id="menu-container">
+      </div>
+  </section>
+
+  <section id="cart-section" class="hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <h3>Total: $<span id="cart-total">0</span></h3>
+    <button id="checkoutBtn">Checkout</button>
+    <button id="closeCartBtn">Close Cart</button>
+  </section>
+
+  <section id="payment-section" class="hidden">
+    <h2>Payment Options</h2>
+    <div class="payment-methods">
+      <label for="card">
+        <input type="radio" name="payment-method" id="card" value="card">
+        Credit/Debit Card
+      </label>
+      <label for="upi">
+        <input type="radio" name="payment-method" id="upi" value="upi">
+        UPI
+      </label>
+      <label for="netbanking">
+        <input type="radio" name="payment-method" id="netbanking" value="netbanking">
+        Net Banking
+      </label>
+      <label for="cod">
+        <input type="radio" name="payment-method" id="cod" value="cod">
+        Cash on Delivery
+      </label>
+    </div>
+    <div id="address-section">
+      <h2>Shipping Address</h2>
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="text" id="address1" placeholder="Address Line 1" required>
+      <input type="text" id="address2" placeholder="Address Line 2 (optional)">
+      <input type="text" id="city" placeholder="City" required>
+      <input type="text" id="state" placeholder="State" required>
+      <input type="text" id="pincode" placeholder="Pincode" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+    </div>
+    <button id="confirmPaymentBtn">Confirm Payment</button>
+  </section>
+
+  <script src="food js.js"></script>
+</body>
+</html>

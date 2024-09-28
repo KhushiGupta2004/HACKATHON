@@ -1,0 +1,47 @@
+/* Your existing CSS styles */
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Your existing CSS styles */
+
+/* Your existing CSS styles */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px; /* Adjust the height value as needed */
+}
+
+.product {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
